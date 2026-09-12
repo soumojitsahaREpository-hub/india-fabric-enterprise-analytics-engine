@@ -1,0 +1,40 @@
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Build / output
+build/
+dist/
+out/
+*.log
+
+# Power BI / Fabric local cache
+*.pbix
+*.pbit
+*.bim.tmp
+*.xlsx
+*.csv
+
+# Generated artifacts
+reports/
+exports/
+
+# Exclude large raw data unless intentionally tracked
+data/raw/
